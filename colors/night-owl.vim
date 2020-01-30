@@ -52,24 +52,24 @@ hi StorageClass guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi htmlTag guifg=#637777 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link htmlEndTag htmlTag
 hi Todo guifg=#777777 ctermfg=243 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
-hi jsStorageClass guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
+hi jsStorageClass guifg=#c792ea ctermfg=176 gui=bold cterm=bold
 hi jsOperator guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsArrowFunction guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsString guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi jsComment guifg=#637777 ctermfg=243 gui=italic cterm=italic
-hi jsFuncCall guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
+hi jsFuncCall guifg=#82aaff ctermfg=111 gui=italic cterm=italic
 hi jsNumber guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi jsSpecial guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
-hi jsObjectProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
-hi jsOperatorKeyword guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
+hi jsObjectProp guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
+hi jsOperatorKeyword guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi jsBooleanFalse guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi jsBooleanTrue guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi jsRegexpString guifg=#5ca7e4 ctermfg=74 gui=NONE cterm=NONE
 hi jsConditional guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
-hi jsFunction guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
-hi jsReturn guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
-hi jsFuncName guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
-hi link jsParensError jsFuncParens
+hi jsFunction guifg=#c792ea ctermfg=176 gui=italic cterm=italic
+hi jsReturn guifg=#c792ea ctermfg=176 gui=italic cterm=italic
+hi jsFuncName guifg=#82aaff ctermfg=111 gui=italic cterm=italic
+hi jsFuncParens guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsClassDefinition guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi jsImport guifg=#c792ea ctermfg=176 gui=italic cterm=italic
 hi jsFrom guifg=#c792ea ctermfg=176 gui=italic cterm=italic
@@ -84,7 +84,7 @@ hi javaScriptBoolean guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi javaScriptBraces guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi javaScriptLineComment guifg=#637777 ctermfg=243 gui=italic cterm=italic
 hi javaScriptSpecial guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
-hi javaScriptFunction guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
+hi javaScriptFunction guifg=#82aaff ctermfg=111 gui=italic cterm=italic
 hi javaScriptStatement guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptException guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi scssSelectorName guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
